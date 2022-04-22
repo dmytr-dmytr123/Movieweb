@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>HOVDA</title>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#new">Новинки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#film">Фільми</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#film">Серіали</a>
+            </li>            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="account">
+            <a href=""><img class="search" src="images/loupe.png" alt=""></a>
+
+            <a href="reg.html"><img class="search" src="images/account.png" alt=""></a>  
+          </div>          
+        </div>
+      </nav>
+    </header>
+    
+    <main class="form">
+        <form action="action_page.php">
+            <div class="container">
+              <h1>Реєстрація</h1>
+              <p>Будь ласка, заповніть поля, щоб створити обліковий запис.</p>
+              <hr>
+          
+              <label for="email"><b>Пошта</b></label>
+              <input type="text" placeholder="Введіть свою пошту" id="email" required>
+          
+              <label for="psw"><b>Новий пароль</b></label>
+              <input type="password" placeholder="Введіть пароль" id="psw" required>
+          
+              <label for="psw-repeat"><b>Повторіть новий пароль</b></label>
+              <input type="password" placeholder="Повторіть пароль" id="psw-repeat" required>
+              <hr>
+          
+              <p>Створюючи обліковий запис, ви погоджуєтеся з нашими <a href="#">Terms & Privacy</a>.</p>
+              <button type="submit" class="registerbtn">Зареєструватись</button>
+            </div>
+          
+            <div class="signin">
+              <p> Вже маєте обліковий запис? <a href="#">Увійти</a>.</p>
+            </div>
+          </form>
+    </main>
+    <footer>
+        <div class="foot">
+          <div class="col">
+            <ul><p>Користувачам і партнерам:</p>
+              <li>Бонуси та подарунки</li>
+              <li>Угода</li>
+              <li>Програма лояльності</li>
+              <li>Про нас</li>
+              <li>Новини компанії</li>
+              <li>Співпраця</li>
+              <li>Вакансії</li>
+            </ul>
+          </div>    
+      
+          <div class="col">
+            <ul><p>На пристроях:</p>
+              <li>Телевізори та медіплеєри</li>
+              <li>Мобільні пристрої</li>
+              <li>Комп'ютери</li>
+              <li>Підключити телевізор</li>
+            </ul>
+          </div>
+    
+          <div class="col">
+            <h1>Підтримка користувачів:</h1>
+            <a href="">(068) 307 76 19</a>
+            <p>БЕЗКОШТОВНО</p>
+    
+            <p>support@projelysium.net</p>
+    
+            <p class="qa">Питання та відповіді</p>
+          
+          </div>
+    
+          <div class="col">
+            <h1>Ми у соцмережах:</h1>
+            <div>
+              <div class="social fb">
+                <img src="images/icons/facebook.png" alt="">
+              </div>
+              <div class="social teleg">
+                <img src="images/icons/telegram.png" alt="">
+              </div>
+              <div class="social viber">
+                <img src="images/icons/viber.png" alt="">
+              </div>
+            </div>
+    
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.165978961879!2d24.02468751592272!3d49.858126737746815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adde8799e9afd%3A0x44896f10f0fb09b4!2z0IbQoiDQodCi0JXQnyDQo9C90ZbQstC10YDRgdC40YLQtdGCIHwgSVQgU1RFUCBVbml2ZXJzaXR5!5e0!3m2!1sru!2sua!4v1650564788537!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
